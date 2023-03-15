@@ -5,7 +5,7 @@ int i;
 int *ptr; // 포인터 변수 ptr 선언
 int **dptr; // 포인터 변수 dptr 선언 
 i = 1234;
-printf("[checking values before ptr = &i] \n"); // ptr에 주소 i를 대입하기 전 i의 메모리 주소 체크
+printf("[checking values before ptr = &i] \n"); // ptr에 i의 주소를 대입하기 전 i의 메모리 주소 체크
 printf("value of i == %d\n", i);  // int i의 값 출력 
 printf("address of i == %p\n", &i); // i의 주소 출력
 printf("value of ptr == %p\n", ptr); // 변수 ptr의 쓰레기값 출력
